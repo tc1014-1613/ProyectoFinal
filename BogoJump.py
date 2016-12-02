@@ -92,6 +92,8 @@ def mostrarPuntaje():
         emprendedor=makePicture("res/img/medioemprendedor.png")
     elif contador>=100:
         emprendedor=makePicture("res/img/muyemprendedor.png")
+    else:
+        emprendedor=makePicture("res/img/pocoemprendedor.png")
     emprendedor.x=150
     emprendedor.y=320
     emprendedor.draw(v)     
