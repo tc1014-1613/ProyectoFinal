@@ -98,7 +98,6 @@ def mostrarPuntaje():
        
 #Hacemos nuestro Menú inicial
 def mostrarMenu():
-    play("res/audio/menu.wav")
     bogo.x=150
     bogo.y=150
     btn_start.Visible=True
@@ -107,7 +106,6 @@ def mostrarMenu():
 #Atendemos botón start
 def iniciarJuego():
     global contador
-    #play("res/audio/background.wav")
     txtContador.x=90
     txtContador.y=20
     emprendedor.undraw()
